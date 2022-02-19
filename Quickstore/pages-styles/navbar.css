@@ -1,0 +1,10 @@
+.nav-heading{
+    width: 99%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.login-section{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+}

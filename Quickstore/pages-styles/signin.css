@@ -1,6 +1,7 @@
 @import url('/Quickstore/pages-styles/landingpage.css');
 @import url('/Quickstore/pages-styles/color.css');
 @import url('/Quickstore/pages-styles/footer.css');
+
 .login-area{
     height: 90vh;
     width: 100%;
@@ -60,6 +61,4 @@
     border: 1px solid;
     background-color: var(--default-color);
 }
-a{
-    color: black;
-}
+ 

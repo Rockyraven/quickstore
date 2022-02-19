@@ -1,0 +1,11 @@
+@import url('/Quickstore/pages-styles/signin.css');
+@import url('/Quickstore/pages-styles/navbar.css');
+
+ .login-container{
+    height: 28rem;
+ }
+ .input-box{
+    height: 2rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+}

@@ -43,3 +43,8 @@
 .content{
     display: flex;
 }
+.login-section{
+    display: flex;
+    text-align: center;
+    gap: 1rem;
+}

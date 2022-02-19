@@ -1,5 +1,6 @@
 :root{
-    --primary-color: rgb(141, 140, 140);
+    --primary-color: rgb(173, 171, 171);
     --default-color: white;
     --loginbackground-color: rgb(219, 219, 219);
+    --signbackground-color: rgb(223, 219, 219);
 }

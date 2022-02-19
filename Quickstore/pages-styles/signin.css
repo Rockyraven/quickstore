@@ -33,11 +33,9 @@
 .login-link { 
     height: 2rem;
     width: 15rem;
-    background-color: rgb(64, 64, 255);
     margin: 1rem 3.6rem;
-
-
 }
+
 .forget-password{
     margin-left: 2rem;
     text-decoration: none;

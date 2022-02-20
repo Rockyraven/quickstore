@@ -1,7 +1,6 @@
 .nav-heading{
-    width: 99%;
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--footerbackground-color);
 }
 .login-section{
     display: flex;

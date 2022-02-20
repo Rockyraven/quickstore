@@ -1,5 +1,5 @@
 .filter-wrapper{
-    height: 100vh;
+    height: auto;
     width: 16rem;
     flex: 0 0 auto;
     border-right: 1px solid ;
@@ -62,4 +62,7 @@
 }
 .wiselist-tag{
     color: var(--wislist-color);
+}
+.range-input{
+    text-align: center;
 }

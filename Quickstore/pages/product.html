@@ -4,39 +4,284 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QuickStore | Product</title>
 
-    
     <!---------component libaray style-sheet ------>
     <link rel="stylesheet" href="https://boostweb-ui.netlify.app/component/boostweb.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
     
     <!---------Style sheet of home page------>
-    <link rel="stylesheet" href="/Quickstore/pages-styles/landingpage.css">
+    <link rel="stylesheet" href="/Quickstore/pages-styles/quickshop.css">
 </head>
 <body>
      <!---navigation bar----->
 
         <nav class="nav-heading">
-            <h1 class="home-heading">QuickShop</h1> 
+            <h1 class="home-heading">QuickStore</h1> 
                 <div class="search-bar">
                     <input type="text" class="search-input-box" placeholder=" Seach for latest">
                     <div class="search-button">
                         <a href="#"><i class="fa fa-search"></i></a>
                     </div>
                 </div>
-            <div class="login-section">
-                <a href="/signin.html" class="login">Login</a>
-                <a href="#"><i class="fa fa-home"></i>Home</a>
-                <a href="#">More</a>
-                <a href="#"><i class="social-icon fa fa-heart"></i>Wishlist</a>
-                <a href="#"><i class="social-icon fa fa-shopping-cart"></i>Cart</a>
-            </div>
+                <div class="login-section">
+                    <a href="/Quickstore/pages/signin.html"><i class="social-icon fa fa-user"></i><p>Login</p></a>
+                    <a href="/Quickstore/pages/wishlist.html"><i class="social-icon fa fa-heart"></i><p>Wishlist</p></a>
+                    <a href="/Quickstore/pages/product.html"><i class="social-icon fa fa-shopping-cart"></i><p>Cart</p></a>
+                </div>
         </nav>
-        <!-------main container------>
 
-        
+            <!-------filter-container----------->
+    <div class="filter-main-container">
+        <div class="filter-container">
+            <aside class="filter-wrapper">
+                <div class="filter-heading">
+                    <p class="filter-subtitle">Filter</p>
+                    <button class="clear">Clear</button>
+                </div>
+
+                <div class="shoetype-category">
+                        <p class="filter-subtitle">Categories</p>
+                        <ul>
+                            <li><input type="checkbox"> <label for="input">Sports Shoes</label></li>
+                            <li><input type="checkbox"> <label for="input">Formal Shoes</label></li>
+                            <li><input type="checkbox"> <label for="input">Sneakers Shoes</label></li>
+                            <li><input type="checkbox"> <label for="input">Casual Shoes</label></li>
+                            <li><input type="checkbox"> <label for="input">Sandles & Floater</label></li>
+                        </ul>
+                </div>
+
+                <div class="sortedby-category">
+                    <p class="filter-subtitle">Sorted By </p>
+                    <ul>
+                        <li><input type="radio"> <label for="input">Low to High Price</label></li>
+                        <li><input type="radio"> <label for="input">High to Low Price</label></li>
+                        <li></li>
+                    </ul>
+                </div>
+
+                <div class="rating-category">
+                    <p class="filter-subtitle">Rating</p>
+                    <ul>
+                        <li><input type="radio"> <label for="input">4 stars & above</label></li>
+                        <li><input type="radio"> <label for="input">3 stars & above</label></li>
+                        <li><input type="radio"> <label for="input">2 stars & above</label></li>
+                        <li><input type="radio"> <label for="input">1 stars & above</label></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    
+            <!----------main container-->
+       <div class="main-container">
+                    <!-------------- vertical-card with badge ------>
+                    <div class="vertical-card">
+                        <img src="/Quickstore/assets/shoe1.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Flex Experience </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹3297 </p>
+                            <p class="actual-price"> ₹4995</p>
+                            <p class="discount">(33% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <div class="sell-tag">
+                            <span class="card-badge">FOR SELL</span>
+                        </div>
+                        <img src="/Quickstore/assets/shoe5.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Court Vision </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹3347 </p>
+                            <p class="actual-price"> ₹4,995</p>
+                            <p class="discount">(32% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <div class="sell-tag">
+                            <span class="card-badge">Coming..</span>
+                        </div>
+                        <img src="/Quickstore/assets/shoe6.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Revolution 6 </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹459 </p>
+                            <p class="actual-price"> ₹1,849</p>
+                            <p class="discount">(82% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <div class="sell-tag">
+                            <span class="card-badge">FOR SELL</span>
+                        </div>
+                        <img src="/Quickstore/assets/shoe7.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Court Royale @ </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹4594 </p>
+                            <p class="actual-price"> ₹5,849</p>
+                            <p class="discount">(12% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <div class="sell-tag">
+                            <span class="card-badge">FOR SELL</span>
+                        </div>
+                        <img src="/Quickstore/assets/shoe8.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Interflex Moder </p>
+                        <p class="image-subtitle">PUMA</p>
+                        <div class="price-content">
+                            <p class="price">₹4592 </p>
+                            <p class="actual-price"> ₹6,849</p>
+                            <p class="discount">(32% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <div class="sell-tag">
+                            <span class="card-badge">FOR SELL</span>
+                        </div>
+                        <img src="/Quickstore/assets/shoe9.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Interflex Moder </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹3459 </p>
+                            <p class="actual-price"> ₹5,849</p>
+                            <p class="discount">(82% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <div class="sell-tag">
+                            <span class="card-badge">FOR SELL</span>
+                        </div>
+                        <img src="/Quickstore/assets/shoe.jpg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Interflex Moder </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹4459 </p>
+                            <p class="actual-price"> ₹5,849</p>
+                            <p class="discount">(22% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <img src="/Quickstore/assets/shoe2.jpeg" alt="">
+                        <p class="image-title">Interflex Moder </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹5000 </p>
+                            <p class="actual-price"> ₹10000</p>
+                            <p class="discount">(50% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <img src="/Quickstore/assets/shoe1.jpeg" alt="">
+                        <p class="image-title">Interflex Moder </p>
+                        <p class="image-subtitle">Jorden</p>
+                        <div class="price-content">
+                            <p class="price">₹5500 </p>
+                            <p class="actual-price"> ₹7000</p>
+                            <p class="discount">(20% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <img src="/Quickstore/assets/shoe3.jpeg" alt="">
+                        <p class="image-title">Interflex Moder </p>
+                        <p class="image-subtitle">Spark</p>
+                        <div class="price-content">
+                            <p class="price">₹3300 </p>
+                            <p class="actual-price"> ₹5000</p>
+                            <p class="discount">(30% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                   
+                    <div class="vertical-card">
+                        <img src="/Quickstore/assets/shoe1.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Flex Experience </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹3297 </p>
+                            <p class="actual-price"> ₹4995</p>
+                            <p class="discount">(33% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <img src="/Quickstore/assets/shoe1.jpeg" alt="">
+                        <div class="wiselist-tag">
+                            <i class="wishlist-icon fa fa-heart"></i>
+                        </div>
+                        <p class="image-title">Flex Experience </p>
+                        <p class="image-subtitle">NIKE</p>
+                        <div class="price-content">
+                            <p class="price">₹3297 </p>
+                            <p class="actual-price"> ₹4995</p>
+                            <p class="discount">(33% off)</p>
+                        </div>
+                        <div class="buy-button">
+                            <a href="#" class="buy">BUY NOW</a>
+                        </div>
+                    </div>
+                    
+                </div> 
+        </div> 
+    </div>
          <!----------------footer-part------------->
          <footer class="footer">
                 

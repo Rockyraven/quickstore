@@ -32,14 +32,20 @@
     height: fit-content;
     box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
     padding: 1rem;
+    line-height: 2rem;
 }
-.price-heading,.total-title{
+.original-price,.total-price{
     font-size: 1.5rem;
+}
+.price-heading{
+    text-align: center;
+    border-bottom: 1px solid;
 }
 .wishlist-wrapper{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .place-order{
     height: 2.3rem;
@@ -47,5 +53,9 @@
     font-weight: 500;
     font-size: 1rem;
     background-color: var(--primary-color);
+}
+.original-price,.total-price,.original-price,.discount-price,.delivery-price{
+    display: flex;
+    justify-content: space-between;
 }
  

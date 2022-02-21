@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rocky">
     <title>QuickStore | Wishlist</title>
 
     <!---------component libaray style-sheet ------>
@@ -26,11 +27,20 @@
                     </div>
                 </div>
                 <div class="login-section">
-                    <a href="/Quickstore/pages/signin.html"><i class="social-icon fa fa-user"></i><p>Login</p></a>
-                    <a href="/Quickstore/pages/wishlist.html"><i class="social-icon fa fa-heart"></i><p>Wishlist</p></a>
-                    <a href="/Quickstore/pages/product.html"><i class="social-icon fa fa-shopping-cart"></i><p>Cart</p></a>
+                        <a href="/Quickstore/pages/signin.html"><i class="badge-icon fa fa-user"></i><p>Login</p></a>
+                        <div class="wishlist-badge badge">
+                            <a href="#"> <i class="badge-icon fa fa-heart"></i> 
+                                <p class="names">wishlist</p>
+                                <span class="badge-symbol">3</span></a>
+                        </div>
+                        <div class="cart-badge badge">
+                            <a href="#"> <i class="badge-icon fa fa-shopping-cart"></i> 
+                                <p class="names">Cart</p>
+                                <span class="badge-symbol ">5</span></a>
+                        </div>
                 </div>
         </nav>
+        <!--------wishlist container---->
         <div class="wishlist-wrapper">
             <div class="card-container">
                 <section class="horizontal-card">
@@ -81,10 +91,23 @@
                 <div class="price-container">
                     <aside class="final-price-tag">
                         <p class="price-heading">Price Details</p>
-                        <p class="price-title">Price (5 items) <span>₹2500</span></p>
-                        <p class="price-title">Discount  <span>-500</span></p>
-                        <p class="price-title">Delivery Charges  <span>100</span></p>
-                        <p class="total-title">Total Amount  <span>2100</span></p>
+                        <div class="original-price">
+                            <p>Price (5 items)</p>
+                            <p>2500/-</p>
+                        </div>
+                        <div class="discount-price">
+                            <p>Discount</p>
+                            <p>-500</p>
+                        </div>
+                        <div class="delivery-price">
+                            <p>Delivery Charges</p>
+                            <p>100</p>
+                        </div>
+                        <hr>
+                        <div class="total-price">
+                            <p>Total Amount</p>
+                            <p>2100/-</p>
+                        </div>
                         <p>You will save ₹500 on this Order</p>
                         <button class="place-order">Place Your Order</button>
                     </aside>

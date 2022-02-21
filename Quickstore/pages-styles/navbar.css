@@ -7,3 +7,12 @@
     gap: 1rem;
     text-align: center;
 }
+.badge-icon{
+        font-size: 30px;
+}
+.badge-symbol{
+  right: 5px;
+}
+.login-section{
+    margin-right: 1rem;
+}

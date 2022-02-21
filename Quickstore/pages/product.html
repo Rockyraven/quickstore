@@ -17,20 +17,28 @@
 <body>
      <!---navigation bar----->
 
-        <nav class="nav-heading">
-            <h1 class="home-heading">QuickStore</h1> 
-                <div class="search-bar">
-                    <input type="text" class="search-input-box" placeholder=" Seach for latest">
-                    <div class="search-button">
-                        <a href="#"><i class="fa fa-search"></i></a>
+     <nav class="nav-heading">
+        <h1 class="home-heading">QuickStore</h1> 
+            <div class="search-bar">
+                <input type="text" class="search-input-box" placeholder=" Seach for latest">
+                <div class="search-button">
+                    <a href="#"><i class="fa fa-search"></i></a>
+                </div>
+            </div>
+            <div class="login-section">
+                    <a href="/Quickstore/pages/signin.html"><i class="badge-icon fa fa-user"></i><p>Login</p></a>
+                    <div class="wishlist-badge badge">
+                        <a href="/Quickstore/pages/wishlist.html"> <i class="badge-icon fa fa-heart"></i> 
+                            <p class="names">wishlist</p>
+                            <span class="badge-symbol">3</span></a>
                     </div>
-                </div>
-                <div class="login-section">
-                    <a href="/Quickstore/pages/signin.html"><i class="social-icon fa fa-user"></i><p>Login</p></a>
-                    <a href="/Quickstore/pages/wishlist.html"><i class="social-icon fa fa-heart"></i><p>Wishlist</p></a>
-                    <a href="/Quickstore/pages/product.html"><i class="social-icon fa fa-shopping-cart"></i><p>Cart</p></a>
-                </div>
-        </nav>
+                    <div class="cart-badge badge">
+                        <a href="/Quickstore/pages/cart.html"> <i class="badge-icon fa fa-shopping-cart"></i> 
+                            <p class="names">Cart</p>
+                            <span class="badge-symbol ">5</span></a>
+                    </div>
+            </div>
+    </nav>
 
             <!-------filter-container----------->
     <div class="filter-main-container">

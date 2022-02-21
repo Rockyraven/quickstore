@@ -49,8 +49,8 @@
     color: var(--primary-color);
 }
 .buy-button{
-    display: block;
     background-color: var(--buybutton-color);
+    padding-bottom: 7px;
 }
 .buy-button:hover{
     background-color: var(--signbackground-color);

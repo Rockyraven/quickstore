@@ -24,7 +24,8 @@ It has 6 pages.
 6. ![wishlist](https://user-images.githubusercontent.com/89784704/155078025-410412f8-5d8a-44d3-820e-a76de4f3f994.PNG)
 
 7. [Wishlist-Page](https://quickstore-ui.netlify.app/quickstore/pages/wishlist)
-8. ![wishlist](https://user-images.githubusercontent.com/89784704/155078180-4ab7d9c5-bff4-4c9f-b448-0784959720dd.PNG)
+ ![wish](https://user-images.githubusercontent.com/89784704/155078351-63105150-6fe5-4033-bf3a-33afd52136c1.PNG)
+
 
 9. [Login-Page](https://quickstore-ui.netlify.app/quickstore/pages/signin)
 10. ![login page](https://user-images.githubusercontent.com/89784704/155077953-55e9ad56-3309-4467-a8db-43a5bdbb9516.PNG)

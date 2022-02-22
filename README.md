@@ -15,11 +15,26 @@ https://boostweb-ui.netlify.app/component/boostweb.css
  ## Pages
 It has 6 pages.
 1. [Home-Page](https://quickstore-ui.netlify.app/)
-1. [Product-Page](https://quickstore-ui.netlify.app/quickstore/pages/product)
-1. [Cart-Page](https://quickstore-ui.netlify.app/quickstore/pages/cart)
-1. [Wishlist-Page](https://quickstore-ui.netlify.app/quickstore/pages/wishlist)
-1. [Login-Page](https://quickstore-ui.netlify.app/quickstore/pages/signin)
-1. [Signup-Page](https://quickstore-ui.netlify.app/quickstore/pages/signup)
+![ecom home page](https://user-images.githubusercontent.com/89784704/155077548-0b10320d-d162-41f2-a963-9dea0729588a.PNG)
+
+3. [Product-Page](https://quickstore-ui.netlify.app/quickstore/pages/product)
+4. ![product pages](https://user-images.githubusercontent.com/89784704/155077867-ebc1f228-55d2-42b5-a025-89de9434dff7.PNG)
+
+5. [Cart-Page](https://quickstore-ui.netlify.app/quickstore/pages/cart)
+6. ![wishlist](https://user-images.githubusercontent.com/89784704/155078025-410412f8-5d8a-44d3-820e-a76de4f3f994.PNG)
+
+7. [Wishlist-Page](https://quickstore-ui.netlify.app/quickstore/pages/wishlist)
+8. ![wishlist](https://user-images.githubusercontent.com/89784704/155078180-4ab7d9c5-bff4-4c9f-b448-0784959720dd.PNG)
+
+9. [Login-Page](https://quickstore-ui.netlify.app/quickstore/pages/signin)
+10. ![login page](https://user-images.githubusercontent.com/89784704/155077953-55e9ad56-3309-4467-a8db-43a5bdbb9516.PNG)
+
+9. [Signup-Page](https://quickstore-ui.netlify.app/quickstore/pages/signup)
+10. ![sign-up page](https://user-images.githubusercontent.com/89784704/155077925-add99d4b-c196-4d10-8b7c-435979716966.PNG)
+
+
+
+
 
  
  
